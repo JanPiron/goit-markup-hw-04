@@ -28,8 +28,10 @@ background: #FFFFFF
         padding-top: 32px;
         padding-bottom: 32px;
         padding-right: 371px;
-       
-        
+}
+
+.contact-item {
+    color: #757575;
 }
 
 
@@ -159,7 +161,7 @@ background: #2196F3;
 }
 .primary {  
     
-    background: linear-gradient(rgba(78, 79, 85, 0.4), rgb(78, 66, 80) ) , url(../images/background-image.jpg);
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ) , url(../images/background-image.jpg);
     background-position:100% 100%;
     background-size:contain;
    
@@ -398,6 +400,7 @@ background: #2196F3;
 
 .item-envelope {
     margin-right:10px;
+    fill:#757575;
 }
 
 a:hover {
@@ -410,6 +413,7 @@ a:hover {
 
 .item-smartphone {
     margin-right:10px;
+    fill:#757575;
 }
 
 .item-smartphone:hover,
@@ -517,7 +521,8 @@ a:hover svg {
         height: 92px;
         border: 1px solid #AFB1B8;
             border-radius: 4px;
-            padding:17.71px 32px 14.25px 32px;
+            
+            align-content: center;
 
 }
 
