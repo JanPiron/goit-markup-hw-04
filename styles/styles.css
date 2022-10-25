@@ -34,6 +34,18 @@ background: #FFFFFF
     color: #757575;
 }
 
+.contact-item:hover .item-envelope {
+    fill:#2196F3;
+    
+}
+
+.contact-item:hover .item-smartphone {
+    fill: #2196F3;
+
+}
+
+
+
 
 
 .header-item:hover {
@@ -108,8 +120,9 @@ background: #2196F3;
     color: #2196F3;
 }
 
-.header-item:focus {
+.header-item:focus{
     color: #2196F3;
+   
 
 }
 
@@ -144,6 +157,7 @@ background: #2196F3;
 
 .contacts {
     color: rgba(255, 255, 255, 0.6);
+    padding-right: 0;
 }
 
 
